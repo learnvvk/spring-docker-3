@@ -10,6 +10,6 @@ public class SampleController {
 
     @GetMapping("/msg")
     public String getMessage(){
-        return "Sample project for docker and jenkins integration";
+        return "Sample project for docker & jenkins integration";
     }
 }
